@@ -2,6 +2,10 @@
   "name": "kata-node-starter",
   "version": "1.0.0",
   "description": "A starter project for coding kata in Node.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
