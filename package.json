@@ -7,7 +7,9 @@
     "npm": "5.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test:watch": "mocha --watch --watch-extensions js ./test ./app",
+    "coverage": "nyc --reporter=text --reporter=lcov npm test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/smicaliz/kata-node-starter/issues"
   },
-  "homepage": "https://github.com/smicaliz/kata-node-starter#readme"
+  "homepage": "https://github.com/smicaliz/kata-node-starter#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "sinon": "^5.0.7"
+  }
 }
