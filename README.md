@@ -94,7 +94,7 @@ __Note:__ Some errors must be fixed manually.
 
 ## Node version
 
-By default, this project uses the last LTS version of Node.js (8.x) and the last version of NPM (5.x).
+By default, this project uses the last LTS version of Node.js (8.x) and the last version of NPM (6.x).
 
 If you want to use another version of Node.js and NPM, you can edit `package.json` by changing values for `node` and `npm` in `engines`:
 
@@ -103,7 +103,7 @@ If you want to use another version of Node.js and NPM, you can edit `package.jso
   ...
   "engines": {
     "node": "8.x",
-    "npm": "5.x"
+    "npm": "6.x"
   },
   ...
 }

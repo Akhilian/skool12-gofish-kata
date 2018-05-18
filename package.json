@@ -4,7 +4,7 @@
   "description": "A starter project for coding kata in Node.js",
   "engines": {
     "node": "8.x",
-    "npm": "5.x"
+    "npm": "6.x"
   },
   "scripts": {
     "test": "mocha",
