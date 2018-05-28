@@ -11,7 +11,7 @@ This project will save your time. Now, you can quickly start a coding kata from 
 - Assertion library: [Chai](http://www.chaijs.com/)
 - For spies, stubs and mocks: [Sinon.js](http://sinonjs.org/)
 - Coverage reporting: [Istanbul](https://istanbul.js.org/)
-- Linter: [ESLint](https://eslint.org/) with [Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) base configuration
+- Linter: [ESLint](https://eslint.org/) with [JavaScript Standard Style](https://standardjs.com/) configuration
 
 ## Getting Started
 

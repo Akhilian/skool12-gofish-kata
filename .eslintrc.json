@@ -1,8 +1,10 @@
 {
   "env": {
-    "node": true,
+    "mocha": true,
     "es6": true,
-    "mocha": true
+    "node": true
   },
-  "extends": "airbnb-base"
+  "extends": [
+    "standard"
+  ]
 }
